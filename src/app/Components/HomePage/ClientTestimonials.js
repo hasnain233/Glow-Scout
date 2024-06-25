@@ -29,7 +29,7 @@ export default function ClientTestimonials({ img, heading, content }) {
                    display:'flex',
                    flexDirection:'column',
                   // border: '2px solid red',
-                   width:"70%",
+                   width:{md:"70%",xs:'90%'},
                    //alignItems:'center',
                    justifyContent:"center",
                    padding:'48px',

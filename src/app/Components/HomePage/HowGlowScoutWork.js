@@ -3,7 +3,8 @@ export default function HowGlowScoutWork({ number, content }) {
     return (
         <>
             <Box sx={{
-                width: '20%',
+                width: {md:'20%',xs:'70%'},
+                margin:{xs:'auto'},
                 height: '300px',
                 //border:'2px solid red',
                 backgroundColor: '#F6E9CE',

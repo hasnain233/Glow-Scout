@@ -2,12 +2,12 @@ import { Box,Typography } from "@mui/material"
 import Image from "next/image"
 import img1 from '../Images/landingPage1.png'
 
-export default function Card({img,heading,content}){
+export default function Card({img,heading,content , w="190px"}){
   return(
     <>
     <Box sx={{
       
-      width:'190px',
+      width: w,
       //height:'260px',
       //border:'2px solid red',
       borderRadius: '20px'
